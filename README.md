@@ -1,6 +1,6 @@
 # npy
 
-Simple library to **serialize** numerical Rust types into the [NPY format](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html).
+Simple library to **serialize** numerical Rust types into the [NPY format](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html). The library uses native endianness.
 
 ``` rust
 fn main() {
