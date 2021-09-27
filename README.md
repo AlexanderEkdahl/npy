@@ -8,7 +8,7 @@ fn main() {
 
     npy(
         &mut file,
-        reshaped(vec![1.0, 2.0, 3.0, 4.0, 5.0, 6.0].as_slice(), vec![3, 2]),
+        reshape(vec![1.0, 2.0, 3.0, 4.0, 5.0, 6.0].as_slice(), vec![3, 2]),
     )
     .unwrap();
 }
