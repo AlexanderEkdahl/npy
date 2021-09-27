@@ -15,3 +15,10 @@ fn main() {
 ```
 
 This library automatically infers the shape of single, 1-dimensional array, and 2-dimensional arrays. The `reshape` function is used to explicitly set the shape of the output N-dimensional array.
+
+Pull dependency directly from GitHub:
+
+``` toml
+[dependencies]
+npy = { git = "https://github.com/AlexanderEkdahl/npy" }
+```
