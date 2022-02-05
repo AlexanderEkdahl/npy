@@ -1,6 +1,6 @@
 # npy
 
-Simple library to **serialize** numerical Rust types into the [NPY format](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html).
+Simple library to **serialize** numerical Rust types into the [NPY format](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html). The library uses native endianness.
 
 ``` rust
 fn main() -> io::Result<()> {
@@ -14,4 +14,11 @@ fn main() -> io::Result<()> {
 >>> np.load("3x3.npy")
 array([[1., 2.],
        [3., 4.]])
+```
+
+Pull dependency directly from GitHub:
+
+``` toml
+[dependencies]
+npy = { git = "https://github.com/AlexanderEkdahl/npy" }
 ```
